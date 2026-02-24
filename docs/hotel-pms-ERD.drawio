@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:147.0) Gecko/20100101 Firefox/147.0" version="29.5.2" pages="4">
-  <diagram name="entire-ERD" id="Qor-1hKSe9G4GAnFIZ4_">
-    <mxGraphModel dx="1737" dy="995" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+  <diagram name="entire-ERD" id="En8TgW9MPILECawqZKO0">
+    <mxGraphModel dx="991" dy="597" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1385,8 +1385,8 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram name="inventory-module" id="MdE7mpwC5ZINlKRhYwQT">
-    <mxGraphModel dx="1042" dy="597" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+  <diagram name="inventory-module" id="JYe1cxabfTq7rqFVpcBh">
+    <mxGraphModel dx="1166" dy="702" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1910,7 +1910,7 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram name="reservation-module" id="E2B9T_L8-1RXge3UlxgB">
+  <diagram name="reservation-module" id="HAbynsyzXNlkSD8FcgLP">
     <mxGraphModel dx="1042" dy="597" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
@@ -3011,7 +3011,7 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="OGd3n6BlvqK7gMpar3J8" name="pricing-module">
+  <diagram name="pricing-module" id="MjO2uWeRDxOTYppwG0gR">
     <mxGraphModel dx="1042" dy="597" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
