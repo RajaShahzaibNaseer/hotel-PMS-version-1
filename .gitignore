@@ -20,6 +20,7 @@ rad.json
 *.flf
 #Test results file
 TestResults.xml
-
+#Files for libraries and dependencies
 node_modules/
+#Files to host critical data
 .env
