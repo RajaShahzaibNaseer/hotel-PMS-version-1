@@ -10,7 +10,7 @@ import guestRoute from "./routes/guestRoute.js";
 import guestReservationRoute from "./routes/guestReservationRoute.js"
 import mealPlanRoute from "./routes/mealPlanRoute.js"
 import ratePlanRoute from "./routes/ratePlanRoute.js"
-
+import ratePlanPricesRoute from "./routes/ratePlanPricesRoute.js";
 
 
 
@@ -27,7 +27,7 @@ app.use('/guest',guestRoute);
 app.use("/guest-reservation",guestReservationRoute);
 app.use("meal-plan",mealPlanRoute);
 app.use("rate-plan", ratePlanRoute);
-
+app.use("rate-plan-prices", ratePlanPricesRoute);
 
 const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => {
