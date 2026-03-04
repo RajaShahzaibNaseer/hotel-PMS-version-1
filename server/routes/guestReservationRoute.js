@@ -2,7 +2,7 @@ import express from "express"
 import BaseController from "../controllers/baseController.js"
 
 const guestReservationRoute = express.Router();
-const guestReservationController = new BaseController("guestReservation");
+const guestReservationController = new BaseController("guest_reservation");
 
 guestReservationRoute.get("/", guestReservationController.getAll.bind(guestReservationController));
 guestReservationRoute.get("/:id",guestReservationController.getOne.bind(guestReservationController));

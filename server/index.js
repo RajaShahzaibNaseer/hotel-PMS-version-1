@@ -8,7 +8,7 @@ import roomTypeRoute from "./routes/roomTypeRoute.js"
 import amenityRoute from "./routes/amenityRoute.js"
 import guestRoute from "./routes/guestRoute.js";
 import guestReservationRoute from "./routes/guestReservationRoute.js"
-
+import mealPlanRoute from "./routes/mealPlanRoute.js"
 
 const app = express();
 app.use(cors());
@@ -20,7 +20,10 @@ app.use("/room",roomRoute);
 app.use("/roomtype", roomTypeRoute);
 app.use("/amenity", amenityRoute);
 app.use('/guest',guestRoute);
-app.use("/reservation",guestReservationRoute);
+app.use("/guest-reservation",guestReservationRoute);
+app.use("meal-plan",mealPlanRoute);
+
+
 
 const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => {
