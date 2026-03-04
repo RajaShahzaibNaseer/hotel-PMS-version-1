@@ -1,4 +1,4 @@
-import supabase from "../utils/supabase";
+import supabase from "../utils/supabase.js";
 
 class BaseController {
     constructor (tableName)
@@ -13,7 +13,7 @@ class BaseController {
         result.status(201).json(data);
     }
 
-    async getAll(result) {
+    async getAll(request , result) {
         const {data, error} = await supabase.from(this.tableName).select("*");
         if (error) return result.json({error : error.message});
         result.status(201).json(data);
@@ -39,3 +39,5 @@ class BaseController {
         result.status(201).json(data);
     }
 }
+
+export default BaseController;

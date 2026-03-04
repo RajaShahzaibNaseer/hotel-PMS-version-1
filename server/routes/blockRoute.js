@@ -1,13 +1,13 @@
 import express from "express"
-import BaseController from "../controllers/baseController"
+import BaseController from "../controllers/baseController.js"
 
-const router = express.Router();
-const blockController = BaseController("block");
+const blockRoute = express.Router();
+const blockController = new BaseController("block");
 
-router.get("/", blockController.getAll());
-router.get("/:id",blockController.getOne());
-router.post("/", blockController.create());
-router.put("/:id", blockController.update());
-router.delete("/:id", blockController.delete());
+blockRoute.get("/", blockController.getAll.bind(blockController));
+blockRoute.get("/:id",blockController.getOne.bind(blockController));
+blockRoute.post("/", blockController.create.bind(blockController));
+blockRoute.put("/:id", blockController.update.bind(blockController));
+blockRoute.delete("/:id", blockController.delete.bind(blockController));
 
-module.exports = router;
+export default blockRoute;
