@@ -13,6 +13,7 @@ import ratePlanRoute from "./routes/ratePlanRoute.js"
 import ratePlanPricesRoute from "./routes/ratePlanPricesRoute.js";
 import reservationRoute from "./routes/reservationRoute.js"
 import roomTypeAmenitiesRoute from "./routes/roomTypeAmenities.js"
+import seasonRoute from "./routes/seasonRoute.js"
 
 const app = express();
 app.use(cors());
@@ -30,7 +31,7 @@ app.use("rate-plan", ratePlanRoute);
 app.use("rate-plan-prices", ratePlanPricesRoute);
 app.use("reservation", reservationRoute);
 app.use("room-type-amenities", roomTypeAmenitiesRoute);
-
+app.use ("season", seasonRoute);
 
 const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => {
