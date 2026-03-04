@@ -12,7 +12,7 @@ import mealPlanRoute from "./routes/mealPlanRoute.js"
 import ratePlanRoute from "./routes/ratePlanRoute.js"
 import ratePlanPricesRoute from "./routes/ratePlanPricesRoute.js";
 import reservationRoute from "./routes/reservationRoute.js"
-
+import roomTypeAmenitiesRoute from "./routes/roomTypeAmenities.js"
 
 const app = express();
 app.use(cors());
@@ -29,7 +29,7 @@ app.use("meal-plan",mealPlanRoute);
 app.use("rate-plan", ratePlanRoute);
 app.use("rate-plan-prices", ratePlanPricesRoute);
 app.use("reservation", reservationRoute);
-
+app.use("room-type-amenities", roomTypeAmenitiesRoute);
 
 
 const PORT = process.env.PORT || 5000;
